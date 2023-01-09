@@ -1,0 +1,54 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Car.Web.ViewModel.FontUserSettingViewModel
+@using Car.Web.DataContext.Enum
+@{
+    var FilePath = "https://localhost:44391/Files/User/Images/";
+}
+<form asp-action="FontUserSetting" asp-controller="FontCarBlogUser" enctype="multipart/form-data" method="post">
+    
+     <div class="form-group">
+        <label asp-for="ImagePath" class="control-label"></label>
+        <img src="@(FilePath + Model.ImagePath)" asp-append-version="true"/>
+        <input name="fileImage"  type="file" class="form-control" />
+        <span asp-validation-for="ImagePath" class="text-danger"></span>
+      </div>
+    <div class="form-floating">
+        <input asp-for="FullName" class="form-control" autocomplete="username" aria-required="true" />
+        <label asp-for="FullName"></label>
+        <span asp-validation-for="FullName" class="text-danger"></span>
+    </div
+     <div class="form-floating">
+          <label asp-for="Cellphone"></label>
+        <input asp-for="Cellphone" class="form-control" autocomplete="username" aria-required="true" />
+        
+        <span asp-validation-for="Cellphone" class="text-danger"></span>
+    </div>
+    <div class="form-floating">
+        <input asp-for="Birthday" class="form-control" autocomplete="username" aria-required="true" />
+        <label asp-for="Birthday"></label>
+        <span asp-validation-for="Birthday" class="text-danger"></span>
+    </div>
+    <div class="form-floating">
+               
+        <select asp-for="county" asp-items="Html.GetEnumSelectList<CountyCity>()" class="form-control"></select>
+        <label asp-for="county"></label>
+        <span asp-validation-for="county" class="text-danger"></span>
+    </div>
+    <div class="form-floating">
+        <input asp-for="Address" class="form-control" autocomplete="username" aria-required="true" />
+        <label asp-for="Address"></label>
+        <span asp-validation-for="Address" class="text-danger"></span>
+    </div>
+    <div class="form-floating">
+        <input asp-for="male" type="checkbox" value="true"  aria-required="true" />
+        <input asp-for="male" type="checkbox" value="false"   aria-required="true" />
+        <label asp-for="male">男生</label>
+        <label asp-for="male"> 女生</label>
+        <span asp-validation-for="male" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="更新使用者" class="btn btn-primary" />
+    </div>
+</form>

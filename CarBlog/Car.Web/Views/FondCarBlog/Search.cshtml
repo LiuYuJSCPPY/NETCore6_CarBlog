@@ -1,0 +1,137 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Car.Web.ViewModel.SeachFormCarViewModel
+@using Car.Web.DataContext.Enum
+@{
+    var stringPath = "~/Files/CarModel/Images/";
+}
+
+
+
+<body>
+    
+
+<main class="container">
+  
+
+
+  <div class="row">
+
+
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img src="images/contact.jpg" alt="" class="img-fluid w-100">
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  
+                    <h2 class="mb-4">Get In Touch</h2>
+
+                    <form id="contact-form" class="contact-form" asp-controller="FondCarBlog" asp-action="Search" method="get">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <h3>能源</h3>
+                                    @foreach(var enuyms in Enum.GetValues<CarPower>())
+                                    {
+                                        <label for="name">@((CarPower)enuyms)</label>
+                                        <input name="CarPower" id="CarPower" type="checkbox" value="@((int)enuyms)" checked="@(Model.CarPower.Equals((int)enuyms))" >
+                                    } 
+                                </div>
+                                <div class="form-group">
+                                    <h3>車型</h3>
+                                    @foreach (var ACarClass in Enum.GetValues<CarClass>())
+                                    {
+                                       <label for="name" >@((CarClass)ACarClass)</label>
+                                       <input name="CarClass" id="CarClass" type="checkbox" value="@((int)ACarClass)" >
+                                    }
+                                </div>
+                                <div class="form-group">
+                                    <h3>車型大小</h3>
+                                    @foreach (var ACarSize in Enum.GetValues<CarSize>())
+                                    {
+                                        <label for="name">@((CarSize)ACarSize)</label>
+                                        <input name="CarSize" id="CarSize" type="checkbox" value="@((int)ACarSize)">
+                                    }
+                                   
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="name">最小價錢</label>
+                                    <input class="form-control form-control-name" name="minprice" id="name" type="text" >
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">最大價錢</label>
+
+                                    <input class="form-control form-control-email" name="maxprice" id="email" type="text">
+                                </div>
+
+                               
+
+                                <button class="btn btn-primary solid blank mt-3" type="submit">送出</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>		
+		</div>
+    <div class="col-md-12">
+      <h3 class="pb-4 mb-4 font-italic border-bottom">
+        From the Firehose
+      </h3>
+      <div class="col-md-8">
+                @foreach(var CarModel in Model.carModels)
+                {
+                    
+                 
+                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col-auto d-none d-lg-block">
+                            
+                        <img class="bd-placeholder-img" width="300" height="200" src="@(stringPath + CarModel.CarModelImage.First().ImagePath)" asp-append-version="true"></img>
+
+                    </div>
+                    <div class="col p-4 d-flex flex-column position-static">
+                        @if(CarModel.HotLeveling != 0){
+                            <strong class="d-inline-block mb-2 text-primary">@((HotLeveling)CarModel.HotLeveling)</strong>
+                        }
+                       @if(CarModel.LuxuryLeveling != 0){
+                            <strong class="d-inline-block mb-2 text-primary">@((LuxuryLeveling)CarModel.LuxuryLeveling)</strong>
+                       }
+                       @if(CarModel.OrderLeveling != 0){
+                            <strong class="d-inline-block mb-2 text-primary">@((OrderLeveling)CarModel.OrderLeveling)</strong>
+                       }
+                      
+                        
+                        <h3 class="mb-0">@CarModel.Name</h3>
+                        <div class="mb-1 text-muted">價格 : @CarModel.LowPrice 萬 ~ @CarModel.HighPrice 萬</div>
+                        
+                        <a asp-action="CarModel" asp-route-CarModelId="@CarModel.Id" class="stretched-link">查看更多</a>
+                    </div>
+        
+                    </div>
+                    
+                }
+</div>  
+      
+
+    
+
+  </div><!-- /.row -->
+
+</main><!-- /.container -->
+
+</body>
+@foreach(var CarModel in Model.carModels)
+{
+    <h1>@CarModel.Name</h1>
+}
+
+@foreach(var CarPower in Enum.GetValues<CarPower>()){
+    <label>@((CarPower)CarPower)</label>
+    <input type="checkbox" name="CarPower" value="@((int)CarPower)">
+    }

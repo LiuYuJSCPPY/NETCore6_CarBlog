@@ -1,0 +1,35 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Car.Web.ViewModel.SeachFormCarViewModel
+@using Car.Web.DataContext.Enum
+@{
+    var stringPath = "~/Files/CarModel/Images/";
+}
+@foreach(var CarBandModel in Model.carModels){
+   <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col-auto d-none d-lg-block">
+                            
+                        <img class="bd-placeholder-img" width="300" height="200" src="@(stringPath + CarBandModel.CarModelImage.First().ImagePath)" asp-append-version="true"></img>
+
+                    </div>
+                    <div class="col p-4 d-flex flex-column position-static">
+                        @if(CarBandModel.HotLeveling != 0){
+                            <strong class="d-inline-block mb-2 text-primary">@((HotLeveling)CarBandModel.HotLeveling)</strong>
+                        }
+                       @if(CarBandModel.LuxuryLeveling != 0){
+                            <strong class="d-inline-block mb-2 text-primary">@((LuxuryLeveling)CarBandModel.LuxuryLeveling)</strong>
+                       }
+                       @if(CarBandModel.OrderLeveling != 0){
+                            <strong class="d-inline-block mb-2 text-primary">@((OrderLeveling)CarBandModel.OrderLeveling)</strong>
+                       }
+                      
+                        
+                        <h3 class="mb-0">@CarBandModel.Name</h3>
+                        <div class="mb-1 text-muted">價格 : @CarBandModel.LowPrice 萬 ~ @CarBandModel.HighPrice 萬</div>
+                        
+                        <a asp-action="CarModel" asp-route-CarModelId="@CarBandModel.Id" class="stretched-link">查看更多</a>
+                    </div>
+        
+                    </div>
+}

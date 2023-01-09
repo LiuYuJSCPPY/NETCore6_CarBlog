@@ -1,0 +1,22 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@using Microsoft.AspNetCore.Identity
+@using Car.Web.Models
+
+
+@inject SignInManager<CarUser> SignInManager
+@inject UserManager<CarUser> UserManager
+@{
+}
+@if (SignInManager.IsSignedIn(User))
+{
+    var CurrUser = await UserManager.GetUserAsync(User);
+    var isAdmin = CurrUser != null && await UserManager.IsInRoleAsync(CurrUser, "User");
+    if (isAdmin)
+    {
+        <li>
+            <a class="nav-link text-dark" asp-area="Dashbord" asp-controller="CarModel" asp-action="Index" > 後臺管理 </a>
+        </li>
+    }
+}

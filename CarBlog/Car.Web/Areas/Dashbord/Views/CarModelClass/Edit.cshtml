@@ -1,0 +1,94 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Car.Web.Areas.Dashbord.ViewModels.ActionCarModelClasseViewModel
+@using Car.Web.DataContext.Enum
+
+<h3> @Model.carModel.Name 更新車型</h3>
+
+<div>
+  <div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" asp-route-CarModelId="@Model.CarModelId" asp-route-CarModelClassId="@Model.Id" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pirce" class="control-label"></label>
+                <input asp-for="Pirce" class="form-control" />
+                <span asp-validation-for="Pirce" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Disclcament" class="control-label"></label>
+                <input asp-for="Disclcament" class="form-control" />
+                <span asp-validation-for="Disclcament" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarPower" class="control-label"></label>
+               <select asp-for="CarPower" asp-items="Html.GetEnumSelectList<CarPower>()" class="form-control"></select>
+                <span asp-validation-for="CarPower" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EngineClass" class="control-label"></label>
+                <input asp-for="EngineClass" class="form-control" />
+                <span asp-validation-for="EngineClass" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+               <label asp-for="Shifting" class="control-label"></label>
+                <input asp-for="Shifting" class="form-control" />
+                <span asp-validation-for="Shifting" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+               <label asp-for="Driventrain" class="control-label"></label>
+                <input asp-for="Driventrain" class="form-control" />
+                <span asp-validation-for="Driventrain" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+               <label asp-for="Ps" class="control-label"></label>
+                <input asp-for="Ps" class="form-control" />
+                <span asp-validation-for="Ps" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+               <label asp-for="Rpm" class="control-label"></label>
+                <input asp-for="Rpm" class="form-control" />
+                <span asp-validation-for="Rpm" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+               <label asp-for="Kml" class="control-label"></label>
+                <input asp-for="Kml" class="form-control" />
+                <span asp-validation-for="Kml" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+               <label asp-for="Burn" class="control-label"></label>
+                <input asp-for="Burn" class="form-control" />
+                <span asp-validation-for="Burn" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+               <label asp-for="Brand" class="control-label"></label>
+                <input asp-for="Brand" class="form-control" />
+                <span asp-validation-for="Brand" class="text-danger"></span>
+
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+</div>

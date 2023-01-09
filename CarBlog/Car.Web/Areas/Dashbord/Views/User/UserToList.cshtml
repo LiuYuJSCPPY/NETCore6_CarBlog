@@ -1,0 +1,39 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model IEnumerable<Car.Web.Areas.Dashbord.ViewModels.UserViewModel>
+
+    <h1>使用者列表</h1>
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.carUser.FullName)
+            </th>
+           
+            <th>
+                @Html.DisplayNameFor(model => model.RoleName)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var Umodel in Model){
+            <tr>
+                <td>
+                    @Umodel.carUser.FullName
+                </td>
+                <td>
+                      @Umodel.RoleName
+                </td>
+                <td>
+                     <a class="btn btn-light btn-sm" style="padding-left:20px;padding-right:20px;" asp-action="EditRole" asp-route-id="@Umodel.carUser.Id">Edit</a> 
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

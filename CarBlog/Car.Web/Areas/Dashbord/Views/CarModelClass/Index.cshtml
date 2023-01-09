@@ -1,0 +1,74 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Car.Web.Areas.Dashbord.ViewModels.IndexCarModelClassViewModels
+@using Car.Web.DataContext.Enum;
+
+
+<a class="btn btn-primary"asp-action="Create" asp-route-CarModelId="@Model.CarModelId">Open first modal</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th> @Html.DisplayNameFor(model => model.Id) </th>
+            <th> @Html.DisplayNameFor(model => model.Name)</th>
+            <th> @Html.DisplayNameFor(model => model.Pirce) </th>
+            <th> @Html.DisplayNameFor(model => model.Disclcament)</th>
+            <th> @Html.DisplayNameFor(model => model.CarPower)</th>
+            <th> @Html.DisplayNameFor(model => model.EngineClass)</th>
+            <th> @Html.DisplayNameFor(model => model.Shifting)</th>
+            <th> @Html.DisplayNameFor(model => model.Driventrain)</th>
+            <th>最大馬力</th>
+            <th>@Html.DisplayNameFor(model => model.Kml)</th>
+            <th>相關稅費(元/年)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if(Model == null)
+        {
+            <p>無</p>
+        }
+        else
+        {
+            @foreach(var CarModelClass in Model.carModelClasses)
+            {
+                    var CarPower = (CarPower)CarModelClass.CarPower;
+                    <tr>
+                    <td>@CarModelClass.Id</td>
+                    <td>@CarModelClass.Name</td>
+                    <td>@CarModelClass.Pirce</td>
+                    <td>@CarModelClass.Disclcament</td>
+                    <td>@CarPower</td>
+                    <td>@CarModelClass.EngineClass</td>
+                    <td>@CarModelClass.Shifting</td>
+                    <td>@CarModelClass.Driventrain</td>
+                    <td>@CarModelClass.Ps / @CarModelClass.Rpm</td>
+                    <td>@CarModelClass.Kml</td>
+                    <td>@CarModelClass.Burn / @CarModelClass.Brand</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-CarModelId="@CarModelClass.CarModelId" asp-route-CarModelClassId="@CarModelClass.Id">更新</a>
+              
+                        <a asp-action="Detele" asp-route-CarModelId="@CarModelClass.CarModelId" asp-route-CarModelClassId="@CarModelClass.Id">刪除</a>
+                    </td>
+         
+                </tr>
+            }
+        }
+       
+    </tbody>
+    
+    
+
+</table>
+
+<script>
+    
+    $(".data-id").click(function(){
+        $.ajax({
+            url:$(this).attr("data-herf"),
+            type:"get",
+        }).done()
+    })
+</script>

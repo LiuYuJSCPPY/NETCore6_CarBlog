@@ -1,0 +1,105 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Car.Web.Models.CarModel
+@using Car.Web.DataContext.Enum
+@{
+    var path = "~/Files/CarModel/Images/";
+    var firstImage = Model.CarModelImage.First().ImagePath;
+   
+}
+
+
+
+<div class="container my-5">
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+        <h1 class="display-4 fw-bold lh-1">@Model.Name</h1>
+        <p class="lead">@Model.LowDisclcament c.c ~ @Model.HighDisclcament c.c | @((CarClass)Model.CarClass) | @Model.CarModelClasses.Count() 車型 | @Model.LowPrice ~ @Model.HighPrice 萬</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                @if(Model.HotLeveling > 0)
+                {
+                     <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">@((HotLeveling)Model.HotLeveling)</button>
+                }
+                @if(Model.LuxuryLeveling > 0)
+                {
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">@((LuxuryLeveling)Model.LuxuryLeveling)</button>
+                }
+                @if(Model.OrderLeveling > 0)
+                {
+                     <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">@((OrderLeveling)Model.OrderLeveling)</button>
+                }
+
+        
+        </div>
+      </div>
+      <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+               
+                <div class="carousel-item active">
+                    <img src="@(path + firstImage)" asp-append-version="true" class="d-block w-100" alt="...">
+                </div>
+                    @foreach(var Image in Model.CarModelImage)
+                    {
+                        <div class="carousel-item">
+                            <img src="@(path + Image.ImagePath)" asp-append-version="true" class="d-block w-100" alt="...">
+                        </div> 
+                    }
+                   
+               
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="table-responsive">
+        <table class="table table-striped table-sm">
+          <thead>
+            <tr>
+              <th scope="col">車型/規格</th>
+              <th scope="col">售價(萬)</th>
+              <th scope="col">排氣量(c.c)</th>
+              <th scope="col">燃料</th>
+              <th scope="col">引擎型式</th>
+               <th scope="col">變速系統</th>
+              <th scope="col">傳動方式</th>
+              <th scope="col">最大馬力</th>
+              <th scope="col">平均油耗 km/L(歐)</th>
+              <th scope="col">相關稅費(元/年)</th>
+            </tr>
+          </thead>
+          <tbody>
+            @foreach (var CarClass in Model.CarModelClasses)
+              {
+                <tr>
+                  <td>@CarClass.Name</td>
+                  <td>@CarClass.Pirce</td>
+                  <td>@CarClass.Disclcament</td>
+                  <td>@((CarPower)CarClass.CarPower)</td>
+                  <td>@CarClass.EngineClass</td>
+                  <td>@CarClass.Shifting</td>
+                  <td>@CarClass.Driventrain</td>
+                  <td>@CarClass.Ps / @CarClass.Rpm</td>
+                  <td>@CarClass.Kml Km/L</td>
+                  <td>燃 @CarClass.Burn / 牌 @CarClass.Brand</td>
+                </tr>   
+              }
+            
+          </tbody>
+        </table>
+      </div>
+
+   <div class="px-4 py-5 my-5 text-center">
+          
+          @Html.Raw(Model.Content)
+  </div>

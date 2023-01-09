@@ -1,0 +1,52 @@
+﻿
+@model Car.Web.Areas.Dashbord.ViewModels.IndexCarModelViewModel
+@using Car.Web.DataContext.Enum
+
+<p>
+    <a asp-action="Create">新增</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th> @Html.DisplayNameFor(model => model.Id) </th>
+            <th> @Html.DisplayNameFor(model => model.Name)</th>
+            <th> @Html.DisplayNameFor(model => model.CarBandId) </th>
+            <th> @Html.DisplayNameFor(model => model.CarModelClasses)</th>
+            <th> @Html.DisplayNameFor(model => model.CarModelImages)</th>
+           
+
+        </tr>
+    </thead>
+    <tbody>
+@foreach(var CarModel in Model.carModels)
+    {
+       <tr>
+            <td>@CarModel.Id</td>
+            <td>@CarModel.Name</td>
+            <td>@CarModel.CarBand.Name</td>
+            <td>
+                
+               <a class="data-id btn btn-primary" asp-controller="CarModelClass" asp-action="Index" asp-route-CarModelId="@CarModel.Id"> 現在車型 @CarModel.CarModelClasses.Count() 種</a>
+            </td>
+            <td>
+                @CarModel.CarModelImage.Count()
+            </td>
+            
+            <td>
+                <a asp-action="Edit" asp-route-id="@CarModel.Id">更新</a>
+                <a asp-action="Detail" asp-route-id="@CarModel.Id">顯示</a>
+                <a asp-action="Detele" asp-route-id="@CarModel.Id">刪除</a>
+            </td>
+         
+        </tr>
+    }
+    </tbody>
+    
+    
+
+</table>
+
+
+
+
