@@ -548,3 +548,8 @@ E:\0_MyDocument\Visual_Studio_2022\Projects\NETCore6_CarBlog\CarBlog\Car.Web\obj
 E:\0_MyDocument\Visual_Studio_2022\Projects\NETCore6_CarBlog\CarBlog\Car.Web\obj\Debug\net6.0\Car.Web.pdb
 E:\0_MyDocument\Visual_Studio_2022\Projects\NETCore6_CarBlog\CarBlog\Car.Web\obj\Debug\net6.0\Car.Web.genruntimeconfig.cache
 E:\0_MyDocument\Visual_Studio_2022\Projects\NETCore6_CarBlog\CarBlog\Car.Web\obj\Debug\net6.0\ref\Car.Web.dll
+E:\0_MyDocument\Visual_Studio_2022\Projects\NETCore6_CarBlog\CarBlog\Car.Web\obj\Debug\net6.0\staticwebassets\msbuild.Car.Web.Microsoft.AspNetCore.StaticWebAssets.props
+E:\0_MyDocument\Visual_Studio_2022\Projects\NETCore6_CarBlog\CarBlog\Car.Web\obj\Debug\net6.0\staticwebassets\msbuild.build.Car.Web.props
+E:\0_MyDocument\Visual_Studio_2022\Projects\NETCore6_CarBlog\CarBlog\Car.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Car.Web.props
+E:\0_MyDocument\Visual_Studio_2022\Projects\NETCore6_CarBlog\CarBlog\Car.Web\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Car.Web.props
+E:\0_MyDocument\Visual_Studio_2022\Projects\NETCore6_CarBlog\CarBlog\Car.Web\obj\Debug\net6.0\staticwebassets.pack.json

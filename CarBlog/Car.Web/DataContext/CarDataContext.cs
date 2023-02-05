@@ -17,5 +17,6 @@ namespace Car.Web.DataContext
         public DbSet<CarModelClass> CarModelClasse { get; set; }
         public DbSet<CarModelImage> CarModelImage { get; set; }
         public DbSet<CarModelPostImage> CarModelPostImage { get; set; }
+        public virtual DbSet<Tset> Tsets { get; set; }
     }
 }
