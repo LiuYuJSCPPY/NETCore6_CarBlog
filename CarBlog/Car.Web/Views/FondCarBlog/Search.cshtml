@@ -73,7 +73,7 @@
 
                                
 
-                                <button class="btn btn-primary solid blank mt-3" type="submit">送出</button>
+                                <button id="SearchBtn" class="btn btn-primary solid blank mt-3" type="submit">送出</button>
                             </div>
                         </div>
                     </form>
@@ -116,8 +116,8 @@
                     </div>
                     
                 }
-</div>  
-      
+</div>
+               
 
     
 
@@ -126,12 +126,3 @@
 </main><!-- /.container -->
 
 </body>
-@foreach(var CarModel in Model.carModels)
-{
-    <h1>@CarModel.Name</h1>
-}
-
-@foreach(var CarPower in Enum.GetValues<CarPower>()){
-    <label>@((CarPower)CarPower)</label>
-    <input type="checkbox" name="CarPower" value="@((int)CarPower)">
-    }

@@ -22,7 +22,7 @@
      </li>
    
     <li class="nav-item">
-        <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+        <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("SearchIndex", "FondCarBlog", new { area = "" })">
             <button id="logout" type="submit" class="nav-link btn btn-link text-dark">登出</button>
         </form>
     </li>

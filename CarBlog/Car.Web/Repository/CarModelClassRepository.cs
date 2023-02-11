@@ -61,7 +61,7 @@ namespace Car.Web.Repository
 
             return Result;
         }
-
+       
         public bool UpdateModelClasses(CarModelClass UpdateModelClass)
         {
             _carDataContext.Entry(UpdateModelClass).State = EntityState.Modified;

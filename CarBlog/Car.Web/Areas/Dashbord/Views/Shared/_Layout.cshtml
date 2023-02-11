@@ -14,7 +14,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Car.Web</a>
+                <a class="navbar-brand" asp-area="" asp-controller="FondCarBlog" asp-action="SearchIndex">Car.Web</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -24,9 +24,7 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="FondCarBlog" asp-action="SearchIndex">首頁</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
+                       
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="Dashbord" asp-controller="CarBands" asp-action="Index">車子品牌</a>
                         </li>
@@ -34,13 +32,10 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="Dashbord" asp-controller="CarModel" asp-action="Index">車資料</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="Dashbord" asp-controller="User" asp-action="UserToList">使用者</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="Dashbord" asp-controller="UserRole" asp-action="RoleList">授權角色</a>
-                        </li>
+                        
+                        <partial name="_AdminPartial" />
                     </ul>
+                    <partial name="_LoginPartial" />
                 </div>
             </div>
         </nav>

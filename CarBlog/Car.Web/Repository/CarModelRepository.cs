@@ -59,7 +59,25 @@ namespace Car.Web.Repository
 
         }
 
+        public bool DeleteCarModelImage(int Id, List<CarModelImage> DeleteIamges)
+        {
+            
 
+            foreach (var DeleteIamge in DeleteIamges)
+            {
+                
+                string DeletePath = Path.Combine(_webHostBuilder.WebRootPath, "Files/CarModel/Images", DeleteIamge.ImagePath);
+                if (Directory.Exists(DeletePath))
+                {
+                    Directory.Delete(DeletePath);
+                }
+            }
+
+            
+            _carDataContext.RemoveRange(DeleteIamges);
+            return _carDataContext.SaveChanges() > 0;
+
+        }
 
         public bool Create(CarModel carModel)
         {
@@ -69,13 +87,15 @@ namespace Car.Web.Repository
 
         public bool Delete(int Id)
         {
-            CarModel DeleteCarModel = _carDataContext.CarModel.Find(Id);
-
+            CarModel DeleteCarModel = _carDataContext.CarModel.Include(x => x.CarModelClasses).Include(x => x.CarModelImage).FirstOrDefault(x => x.Id == Id);
+            
             if (DeleteCarModel == null)
             {
                 return false;
 
             }
+            DeleteCarModelImage(Id, DeleteCarModel.CarModelImage.ToList());
+            
             _carDataContext.Remove(DeleteCarModel);
             return _carDataContext.SaveChanges() > 0;
         }

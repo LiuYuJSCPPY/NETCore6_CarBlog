@@ -10,7 +10,7 @@
     
      <div class="form-group">
         <label asp-for="ImagePath" class="control-label"></label>
-        <img src="@(FilePath + Model.ImagePath)" asp-append-version="true"/>
+        <img width="120px" height="200px" src="@(FilePath + Model.ImagePath)" asp-append-version="true"/>
         <input name="fileImage"  type="file" class="form-control" />
         <span asp-validation-for="ImagePath" class="text-danger"></span>
       </div>

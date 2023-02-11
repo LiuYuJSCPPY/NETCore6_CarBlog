@@ -164,12 +164,22 @@ namespace Car.Web.Areas.Dashbord.Controllers
 
 
 
-        [HttpPost]
-        public async Task<IActionResult> Delete(int id)
+        [HttpGet]
+        public async Task<JsonResult> Delete(int id)
         {
+            bool Result = false;
 
-            _carModel.Delete(id);
-            return RedirectToAction("Index");
+             Result = _carModel.Delete(id);
+            if (Result)
+            {
+                return Json(new { Success = true });
+            }
+            else
+            {
+                return Json(new { Success = false });
+
+            }
+           
         }
 
     }

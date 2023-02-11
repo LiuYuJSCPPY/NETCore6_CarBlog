@@ -2800,6 +2800,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\0b2c4bf2-1f51-4df5-b801-8d95db229845-thumb_82406Z4.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\17191b43-ee1a-40ae-83f5-ebb645d27f5e-R.jfif))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/17191b43-ee1a-40ae-83f5-ebb645d27f5e-R.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\17191b43-ee1a-40ae-83f5-ebb645d27f5e-R.jfif))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\1855a9ec-8229-44c3-91d1-02ef53bb4da2-Z4.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Car.Web</SourceId>
@@ -2816,6 +2832,54 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\1855a9ec-8229-44c3-91d1-02ef53bb4da2-Z4.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\1e49087a-b65c-41d8-98fe-49fb7b43ace8-لكزس is 2021.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/1e49087a-b65c-41d8-98fe-49fb7b43ace8-لكزس is 2021.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\1e49087a-b65c-41d8-98fe-49fb7b43ace8-لكزس is 2021.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\21157fc1-edf0-4f40-8d83-334d36844f8f-2019-BMW-X5-xDrive30d-M-Sport-rear-750x428.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/21157fc1-edf0-4f40-8d83-334d36844f8f-2019-BMW-X5-xDrive30d-M-Sport-rear-750x428.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\21157fc1-edf0-4f40-8d83-334d36844f8f-2019-BMW-X5-xDrive30d-M-Sport-rear-750x428.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\242c86dc-ce94-47e0-bb77-46c38168dbb4-bmw-5-series-rendering.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/242c86dc-ce94-47e0-bb77-46c38168dbb4-bmw-5-series-rendering.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\242c86dc-ce94-47e0-bb77-46c38168dbb4-bmw-5-series-rendering.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\24b9b8ad-6a5b-4171-87e1-c558f088b0c8-thumb_82407Z4.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Car.Web</SourceId>
@@ -2831,6 +2895,70 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\24b9b8ad-6a5b-4171-87e1-c558f088b0c8-thumb_82407Z4.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\30d1c4c9-ae44-4f33-9230-113aa55104c2-2020-bmw-5-series-review-15-1603337711.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/30d1c4c9-ae44-4f33-9230-113aa55104c2-2020-bmw-5-series-review-15-1603337711.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\30d1c4c9-ae44-4f33-9230-113aa55104c2-2020-bmw-5-series-review-15-1603337711.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\3273923b-e089-4088-b141-be81f6c6d560-R (2).jfif))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/3273923b-e089-4088-b141-be81f6c6d560-R (2).jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\3273923b-e089-4088-b141-be81f6c6d560-R (2).jfif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\37cd5b26-9edd-4101-9a15-76519d7297ce-OIP.jfif))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/37cd5b26-9edd-4101-9a15-76519d7297ce-OIP.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\37cd5b26-9edd-4101-9a15-76519d7297ce-OIP.jfif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\3c3e5f28-196d-497f-a7fc-12b0488dd0e3-R (1).jfif))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/3c3e5f28-196d-497f-a7fc-12b0488dd0e3-R (1).jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\3c3e5f28-196d-497f-a7fc-12b0488dd0e3-R (1).jfif))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\3cb12b4e-5911-4368-ae05-68f67f6b7474-articleimage_1086902Z4.jpg))">
       <SourceType>Package</SourceType>
@@ -2864,6 +2992,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\3feaed6b-17ac-4432-984e-70c79131d036-Z4.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\4f7790ce-25f1-47cc-adc2-657008fa5f2a-R (1).jfif))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/4f7790ce-25f1-47cc-adc2-657008fa5f2a-R (1).jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\4f7790ce-25f1-47cc-adc2-657008fa5f2a-R (1).jfif))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\4fe6d2bb-2f80-46ad-8a92-8b64f4940d52-OIP (2).jfif))">
       <SourceType>Package</SourceType>
       <SourceId>Car.Web</SourceId>
@@ -2879,6 +3023,70 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\4fe6d2bb-2f80-46ad-8a92-8b64f4940d52-OIP (2).jfif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\5279ba36-c69c-4524-9c2d-57fdfbde08b0-R.jfif))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/5279ba36-c69c-4524-9c2d-57fdfbde08b0-R.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\5279ba36-c69c-4524-9c2d-57fdfbde08b0-R.jfif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\52b635cd-5d87-4d59-b640-53ee956d785d-R (2).jfif))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/52b635cd-5d87-4d59-b640-53ee956d785d-R (2).jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\52b635cd-5d87-4d59-b640-53ee956d785d-R (2).jfif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\54e773d7-01ab-437a-95be-b291910f0b58-articleimage_1144936.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/54e773d7-01ab-437a-95be-b291910f0b58-articleimage_1144936.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\54e773d7-01ab-437a-95be-b291910f0b58-articleimage_1144936.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\5e304c9e-6c51-4d4d-9f42-a9c546057481-articleimage_1144922.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/5e304c9e-6c51-4d4d-9f42-a9c546057481-articleimage_1144922.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\5e304c9e-6c51-4d4d-9f42-a9c546057481-articleimage_1144922.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\6717bbc3-c4c0-4a08-9445-849130951dca-OIP.jfif))">
       <SourceType>Package</SourceType>
@@ -2896,6 +3104,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\6717bbc3-c4c0-4a08-9445-849130951dca-OIP.jfif))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\679abdfc-24a5-44f4-b4f3-5ecc2080e094-R (1).jfif))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/679abdfc-24a5-44f4-b4f3-5ecc2080e094-R (1).jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\679abdfc-24a5-44f4-b4f3-5ecc2080e094-R (1).jfif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\68a1b5f4-c609-4874-ac24-89b6880fd5b1-articleimage_1144943.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/68a1b5f4-c609-4874-ac24-89b6880fd5b1-articleimage_1144943.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\68a1b5f4-c609-4874-ac24-89b6880fd5b1-articleimage_1144943.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\6a792fbc-e1e5-4ff1-9a04-86999ea657e8-p90340055_highres_the-all-new-bmw-z4-2_0.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Car.Web</SourceId>
@@ -2911,6 +3151,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\6a792fbc-e1e5-4ff1-9a04-86999ea657e8-p90340055_highres_the-all-new-bmw-z4-2_0.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\6eb1e06c-db31-40f1-91f5-aab19e80c270-bc862bdf2b31f6c1899250de3b2fec5e.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/6eb1e06c-db31-40f1-91f5-aab19e80c270-bc862bdf2b31f6c1899250de3b2fec5e.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\6eb1e06c-db31-40f1-91f5-aab19e80c270-bc862bdf2b31f6c1899250de3b2fec5e.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\7050e62a-1e76-4192-a9f8-55ac5f486f24-thumb_82407Z4.jpg))">
       <SourceType>Package</SourceType>
@@ -2928,6 +3184,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\7050e62a-1e76-4192-a9f8-55ac5f486f24-thumb_82407Z4.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\796d9fae-abcb-4278-ab0d-ed07ddf2c38d-OIP.jfif))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/796d9fae-abcb-4278-ab0d-ed07ddf2c38d-OIP.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\796d9fae-abcb-4278-ab0d-ed07ddf2c38d-OIP.jfif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\7bf0264a-ffa0-40f2-9fdd-81d33b258b8c-b7f8ae4fd1c154a519beeacf11d0ac83_1200.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/7bf0264a-ffa0-40f2-9fdd-81d33b258b8c-b7f8ae4fd1c154a519beeacf11d0ac83_1200.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\7bf0264a-ffa0-40f2-9fdd-81d33b258b8c-b7f8ae4fd1c154a519beeacf11d0ac83_1200.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\7daa783b-83bf-4d1d-9e2f-bc93f2412c21-OIP (1).jfif))">
       <SourceType>Package</SourceType>
       <SourceId>Car.Web</SourceId>
@@ -2943,6 +3231,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\7daa783b-83bf-4d1d-9e2f-bc93f2412c21-OIP (1).jfif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\82508483-c225-411f-a552-64ef21d0b93c-R (3).jfif))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/82508483-c225-411f-a552-64ef21d0b93c-R (3).jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\82508483-c225-411f-a552-64ef21d0b93c-R (3).jfif))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\834bfa75-4dce-4b1c-91eb-05c475ae19b2-articleimage_1086908Z4.jpg))">
       <SourceType>Package</SourceType>
@@ -2976,6 +3280,70 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\85b58ba9-f89b-40f6-a255-e9d7f2cbdc1e-Z4.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\88e4dd0d-0493-4b34-9f4e-191c8e00b021-OIP (1).jfif))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/88e4dd0d-0493-4b34-9f4e-191c8e00b021-OIP (1).jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\88e4dd0d-0493-4b34-9f4e-191c8e00b021-OIP (1).jfif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\8d847ee5-91c4-4616-8297-2afde5f26809-P90388586-the-new-bmw-5-series-sedan-m-performance-parts-05-2020-2121px.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/8d847ee5-91c4-4616-8297-2afde5f26809-P90388586-the-new-bmw-5-series-sedan-m-performance-parts-05-2020-2121px.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\8d847ee5-91c4-4616-8297-2afde5f26809-P90388586-the-new-bmw-5-series-sedan-m-performance-parts-05-2020-2121px.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\90e72d86-470a-4115-94d2-c06ff9cead6a-unnamed.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/90e72d86-470a-4115-94d2-c06ff9cead6a-unnamed.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\90e72d86-470a-4115-94d2-c06ff9cead6a-unnamed.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\9354f8b0-34c4-4d46-bf97-2f2878b744bc-maxresdefault.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/9354f8b0-34c4-4d46-bf97-2f2878b744bc-maxresdefault.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\9354f8b0-34c4-4d46-bf97-2f2878b744bc-maxresdefault.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\9699e426-1616-40f1-98bf-6181b31f0e17-2018_Toyota_Camry_XLE_Hybrid_24_FF81643D84BB8725A24A887F95C671C5CD1D057C.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Car.Web</SourceId>
@@ -2991,6 +3359,102 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\9699e426-1616-40f1-98bf-6181b31f0e17-2018_Toyota_Camry_XLE_Hybrid_24_FF81643D84BB8725A24A887F95C671C5CD1D057C.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\97456c1a-9445-4807-85b6-e5e328779d96-articleimage_1144941.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/97456c1a-9445-4807-85b6-e5e328779d96-articleimage_1144941.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\97456c1a-9445-4807-85b6-e5e328779d96-articleimage_1144941.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\9bdb2e54-26cf-42f6-a0ec-b0c520d0257d-OIP (2).jfif))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/9bdb2e54-26cf-42f6-a0ec-b0c520d0257d-OIP (2).jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\9bdb2e54-26cf-42f6-a0ec-b0c520d0257d-OIP (2).jfif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\a11b836a-1954-417e-8447-9b3d13380eb3-R (2).jfif))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/a11b836a-1954-417e-8447-9b3d13380eb3-R (2).jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\a11b836a-1954-417e-8447-9b3d13380eb3-R (2).jfif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\a11cfeb1-b32c-477b-88aa-4e46540c16d3-OIP (1).jfif))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/a11cfeb1-b32c-477b-88aa-4e46540c16d3-OIP (1).jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\a11cfeb1-b32c-477b-88aa-4e46540c16d3-OIP (1).jfif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\a14e31aa-712c-4822-9161-bf0601717a6c-R.jfif))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/a14e31aa-712c-4822-9161-bf0601717a6c-R.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\a14e31aa-712c-4822-9161-bf0601717a6c-R.jfif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\a361f6de-0162-42b0-9861-98cbd6b8e9de-2020-bmw-5-series-mmp-1-1567093766.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/a361f6de-0162-42b0-9861-98cbd6b8e9de-2020-bmw-5-series-mmp-1-1567093766.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\a361f6de-0162-42b0-9861-98cbd6b8e9de-2020-bmw-5-series-mmp-1-1567093766.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\a3a191ea-ec20-4c09-a71c-a8ca1b94eed3-thumb_82406Z4.jpg))">
       <SourceType>Package</SourceType>
@@ -3040,6 +3504,102 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\b00d1dfd-9bf1-487e-85f9-f5572e7a64a9-p90340055_highres_the-all-new-bmw-z4-2_0.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\b134617e-b6ed-4f5d-b537-9ddf7a768425-OIP.jfif))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/b134617e-b6ed-4f5d-b537-9ddf7a768425-OIP.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\b134617e-b6ed-4f5d-b537-9ddf7a768425-OIP.jfif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\b1ce13df-d872-4b56-bcbe-e1b7628561e8-articleimage_1144926.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/b1ce13df-d872-4b56-bcbe-e1b7628561e8-articleimage_1144926.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\b1ce13df-d872-4b56-bcbe-e1b7628561e8-articleimage_1144926.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\b4e37451-fbcd-4836-89f2-8539fd9cbecf-OIP.jfif))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/b4e37451-fbcd-4836-89f2-8539fd9cbecf-OIP.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\b4e37451-fbcd-4836-89f2-8539fd9cbecf-OIP.jfif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\b710b0f4-08af-4a78-a2b8-e6bb45610333-R.jfif))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/b710b0f4-08af-4a78-a2b8-e6bb45610333-R.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\b710b0f4-08af-4a78-a2b8-e6bb45610333-R.jfif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\b98a2e74-2176-44a5-957f-6247928d493f-SideSpoiler_1024x1024.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/b98a2e74-2176-44a5-957f-6247928d493f-SideSpoiler_1024x1024.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\b98a2e74-2176-44a5-957f-6247928d493f-SideSpoiler_1024x1024.webp))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\c4617777-ed57-4d36-9efe-78fb0816d9b1-articleimage_1144939.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/c4617777-ed57-4d36-9efe-78fb0816d9b1-articleimage_1144939.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\c4617777-ed57-4d36-9efe-78fb0816d9b1-articleimage_1144939.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\cb4eba7c-cee7-4b60-9623-1e72469c5646-p90340055_highres_the-all-new-bmw-z4-2_0.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Car.Web</SourceId>
@@ -3055,6 +3615,70 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\cb4eba7c-cee7-4b60-9623-1e72469c5646-p90340055_highres_the-all-new-bmw-z4-2_0.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\d558babb-905d-4e40-9756-76c91c4ffc9f-OIP.jfif))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/d558babb-905d-4e40-9756-76c91c4ffc9f-OIP.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\d558babb-905d-4e40-9756-76c91c4ffc9f-OIP.jfif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\d5eadbf1-5c4e-4f21-a98e-95405b5440c2-OIP (1).jfif))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/d5eadbf1-5c4e-4f21-a98e-95405b5440c2-OIP (1).jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\d5eadbf1-5c4e-4f21-a98e-95405b5440c2-OIP (1).jfif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\da3b754d-a07a-4f9c-9d1f-226685466161-articleimage_1144924.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/da3b754d-a07a-4f9c-9d1f-226685466161-articleimage_1144924.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\da3b754d-a07a-4f9c-9d1f-226685466161-articleimage_1144924.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\dec3a12f-bf41-43f5-8d1a-582fa311fbef-articleimage_1144928.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/dec3a12f-bf41-43f5-8d1a-582fa311fbef-articleimage_1144928.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\dec3a12f-bf41-43f5-8d1a-582fa311fbef-articleimage_1144928.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\e729130e-01df-440d-99fe-61a2a8610d4c-articleimage_1087086Z4.jpg))">
       <SourceType>Package</SourceType>
@@ -3072,6 +3696,54 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\e729130e-01df-440d-99fe-61a2a8610d4c-articleimage_1087086Z4.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\e8b50bc6-e7ff-4325-b4a5-a60235ad1269-articleimage_1144920.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/e8b50bc6-e7ff-4325-b4a5-a60235ad1269-articleimage_1144920.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\e8b50bc6-e7ff-4325-b4a5-a60235ad1269-articleimage_1144920.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\eb3c2d5a-c08c-4dff-a0a1-c0a05595f717-R (3).jfif))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/eb3c2d5a-c08c-4dff-a0a1-c0a05595f717-R (3).jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\eb3c2d5a-c08c-4dff-a0a1-c0a05595f717-R (3).jfif))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\f35d254f-9bbe-48af-a615-ce962dc6b167-R.jfif))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModel/Images/f35d254f-9bbe-48af-a615-ce962dc6b167-R.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\f35d254f-9bbe-48af-a615-ce962dc6b167-R.jfif))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\fc6afd1f-c1c6-4e91-8621-174ba3b4a849-thumb_82406Z4.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Car.Web</SourceId>
@@ -3088,6 +3760,54 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModel\Images\fc6afd1f-c1c6-4e91-8621-174ba3b4a849-thumb_82406Z4.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\00f848e5-c735-46fb-b14e-09df5be9c71f-articleimage_1146336.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/00f848e5-c735-46fb-b14e-09df5be9c71f-articleimage_1146336.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\00f848e5-c735-46fb-b14e-09df5be9c71f-articleimage_1146336.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\04518fbe-881f-4555-9bb2-3ddd3deba559-articleimage_1144943.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/04518fbe-881f-4555-9bb2-3ddd3deba559-articleimage_1144943.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\04518fbe-881f-4555-9bb2-3ddd3deba559-articleimage_1144943.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\05866d84-0933-455e-aff2-6b928503e848-articleimage_1143211.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/05866d84-0933-455e-aff2-6b928503e848-articleimage_1143211.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\05866d84-0933-455e-aff2-6b928503e848-articleimage_1143211.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\0ecc454f-418e-4d88-b5b5-3e976a1c0751-articleimage_1127451.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Car.Web</SourceId>
@@ -3103,6 +3823,102 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\0ecc454f-418e-4d88-b5b5-3e976a1c0751-articleimage_1127451.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\0f60558b-3703-4242-82e8-695793ddf807-articleimage_1152306.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/0f60558b-3703-4242-82e8-695793ddf807-articleimage_1152306.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\0f60558b-3703-4242-82e8-695793ddf807-articleimage_1152306.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\115a07e4-7146-4c3c-ad9a-4b2872ff661d-articleimage_1144924.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/115a07e4-7146-4c3c-ad9a-4b2872ff661d-articleimage_1144924.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\115a07e4-7146-4c3c-ad9a-4b2872ff661d-articleimage_1144924.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\142eeba1-d5e7-4518-a940-3fb9ca30da34-articleimage_1147055.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/142eeba1-d5e7-4518-a940-3fb9ca30da34-articleimage_1147055.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\142eeba1-d5e7-4518-a940-3fb9ca30da34-articleimage_1147055.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\18c9f417-aac5-40ac-9b95-1d85b5c2946e-articleimage_1143210.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/18c9f417-aac5-40ac-9b95-1d85b5c2946e-articleimage_1143210.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\18c9f417-aac5-40ac-9b95-1d85b5c2946e-articleimage_1143210.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\1b70cecf-c40d-4e8e-aa66-6c86757b5869-articleimage_1144943.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/1b70cecf-c40d-4e8e-aa66-6c86757b5869-articleimage_1144943.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\1b70cecf-c40d-4e8e-aa66-6c86757b5869-articleimage_1144943.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\260d1f2a-5c51-4dc8-b2ff-cde0a16047f0-articleimage_1144922.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/260d1f2a-5c51-4dc8-b2ff-cde0a16047f0-articleimage_1144922.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\260d1f2a-5c51-4dc8-b2ff-cde0a16047f0-articleimage_1144922.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\2659943d-297d-4ede-ae3c-3b07329969d9-articleimage_1127439.jpg))">
       <SourceType>Package</SourceType>
@@ -3136,6 +3952,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\28846417-769b-4b49-b182-f02e063ecffd-articleimage_1130638.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\28a14864-a34c-428b-807e-013fb7ef609d-articleimage_1144939.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/28a14864-a34c-428b-807e-013fb7ef609d-articleimage_1144939.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\28a14864-a34c-428b-807e-013fb7ef609d-articleimage_1144939.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\2d2da0a3-9a0b-409a-806b-b85685513a4a-articleimage_1127443.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Car.Web</SourceId>
@@ -3167,6 +3999,54 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\33bd472f-143d-46a9-a7e9-1d9f2d892f42-articleimage_1130631.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\349ac170-fc6d-42df-a68c-06ce0f85caae-articleimage_1144941.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/349ac170-fc6d-42df-a68c-06ce0f85caae-articleimage_1144941.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\349ac170-fc6d-42df-a68c-06ce0f85caae-articleimage_1144941.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\34e65073-7a7e-4f6b-b62b-d8a6c3a92629-articleimage_1146340.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/34e65073-7a7e-4f6b-b62b-d8a6c3a92629-articleimage_1146340.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\34e65073-7a7e-4f6b-b62b-d8a6c3a92629-articleimage_1146340.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\3c084225-fd33-42af-bd8e-1a2775f7f1d3-articleimage_1146348.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/3c084225-fd33-42af-bd8e-1a2775f7f1d3-articleimage_1146348.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\3c084225-fd33-42af-bd8e-1a2775f7f1d3-articleimage_1146348.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\3ce081cb-dabf-499e-8e29-39a2c5dc4d00-articleimage_1087086Z4.jpg))">
       <SourceType>Package</SourceType>
@@ -3200,6 +4080,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\4325a9e5-8df7-4cb0-8278-eaffddb90b1d-articleimage_1127445.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\4432cf68-1a01-4efb-a823-a065e2747311-articleimage_1144926.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/4432cf68-1a01-4efb-a823-a065e2747311-articleimage_1144926.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\4432cf68-1a01-4efb-a823-a065e2747311-articleimage_1144926.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\4d7f16d7-541a-4eb0-9497-f12c9dcba8fe-articleimage_1086908Z4.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Car.Web</SourceId>
@@ -3216,6 +4112,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\4d7f16d7-541a-4eb0-9497-f12c9dcba8fe-articleimage_1086908Z4.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\4ed972d7-6345-42a8-899b-5f933e505849-articleimage_1147051.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/4ed972d7-6345-42a8-899b-5f933e505849-articleimage_1147051.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\4ed972d7-6345-42a8-899b-5f933e505849-articleimage_1147051.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\4ef9ad43-4ff9-4e22-845d-5c29c639ac9c-articleimage_1146342.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/4ef9ad43-4ff9-4e22-845d-5c29c639ac9c-articleimage_1146342.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\4ef9ad43-4ff9-4e22-845d-5c29c639ac9c-articleimage_1146342.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\5991d5e1-1d86-4593-849c-dfcd4fc9eb0a-articleimage_1130635.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Car.Web</SourceId>
@@ -3231,6 +4159,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\5991d5e1-1d86-4593-849c-dfcd4fc9eb0a-articleimage_1130635.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\5ca5b0bb-1d4e-42f4-9f57-a39c4954260c-articleimage_1144939.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/5ca5b0bb-1d4e-42f4-9f57-a39c4954260c-articleimage_1144939.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\5ca5b0bb-1d4e-42f4-9f57-a39c4954260c-articleimage_1144939.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\5ea9282c-c6fd-4695-8355-90830876ffb5-articleimage_1127448.jpg))">
       <SourceType>Package</SourceType>
@@ -3280,6 +4224,54 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\68ec1761-568f-405a-af70-6989156b70c2-articleimage_1130633.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\6d101ee5-67fe-499f-906a-508e03594f5b-articleimage_1146344.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/6d101ee5-67fe-499f-906a-508e03594f5b-articleimage_1146344.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\6d101ee5-67fe-499f-906a-508e03594f5b-articleimage_1146344.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\71a7dd29-d97b-41e5-a974-ffc7053940fc-articleimage_1144920.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/71a7dd29-d97b-41e5-a974-ffc7053940fc-articleimage_1144920.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\71a7dd29-d97b-41e5-a974-ffc7053940fc-articleimage_1144920.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\724a8792-c870-4c34-b0b7-9af7927183a1-R.jfif))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/724a8792-c870-4c34-b0b7-9af7927183a1-R.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\724a8792-c870-4c34-b0b7-9af7927183a1-R.jfif))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\74ae26c8-1650-4947-bc9a-676296714683-Toyota-Symbol.png))">
       <SourceType>Package</SourceType>
       <SourceId>Car.Web</SourceId>
@@ -3295,6 +4287,54 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\74ae26c8-1650-4947-bc9a-676296714683-Toyota-Symbol.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\7fae5099-a0de-4b19-949e-1c15d7aca8c4-articleimage_1143207.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/7fae5099-a0de-4b19-949e-1c15d7aca8c4-articleimage_1143207.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\7fae5099-a0de-4b19-949e-1c15d7aca8c4-articleimage_1143207.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\82ac941b-e0d2-45b7-b652-f00b7a9e3d60-articleimage_1144932.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/82ac941b-e0d2-45b7-b652-f00b7a9e3d60-articleimage_1144932.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\82ac941b-e0d2-45b7-b652-f00b7a9e3d60-articleimage_1144932.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\887c2841-5ddd-4990-8e73-d06949825b4c-2019-BMW-X5-xDrive30d-M-Sport-rear-750x428.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/887c2841-5ddd-4990-8e73-d06949825b4c-2019-BMW-X5-xDrive30d-M-Sport-rear-750x428.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\887c2841-5ddd-4990-8e73-d06949825b4c-2019-BMW-X5-xDrive30d-M-Sport-rear-750x428.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\8f58536e-e8e9-4576-b965-8af15901bbc1-articleimage_1130636.jpg))">
       <SourceType>Package</SourceType>
@@ -3312,6 +4352,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\8f58536e-e8e9-4576-b965-8af15901bbc1-articleimage_1130636.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\9eec7f5b-3bd4-40fb-8ce7-28298ed8dd81-articleimage_1144928.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/9eec7f5b-3bd4-40fb-8ce7-28298ed8dd81-articleimage_1144928.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\9eec7f5b-3bd4-40fb-8ce7-28298ed8dd81-articleimage_1144928.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\a1ccd104-55e9-4b04-9092-62bc34778496-articleimage_1127447.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Car.Web</SourceId>
@@ -3327,6 +4383,38 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\a1ccd104-55e9-4b04-9092-62bc34778496-articleimage_1127447.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\a290dab6-fab2-40fc-a434-cb13bddbf117-articleimage_1144922.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/a290dab6-fab2-40fc-a434-cb13bddbf117-articleimage_1144922.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\a290dab6-fab2-40fc-a434-cb13bddbf117-articleimage_1144922.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\a2b7fdac-760f-45c5-9a47-ac1e361bcc17-articleimage_1144939.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/a2b7fdac-760f-45c5-9a47-ac1e361bcc17-articleimage_1144939.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\a2b7fdac-760f-45c5-9a47-ac1e361bcc17-articleimage_1144939.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\a5e24edd-9e56-46a2-8528-bb46f66c2bba-articleimage_1127441.jpg))">
       <SourceType>Package</SourceType>
@@ -3344,6 +4432,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\a5e24edd-9e56-46a2-8528-bb46f66c2bba-articleimage_1127441.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\a8e52385-8560-4e57-a0c6-37de3114cc17-articleimage_1144941.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/a8e52385-8560-4e57-a0c6-37de3114cc17-articleimage_1144941.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\a8e52385-8560-4e57-a0c6-37de3114cc17-articleimage_1144941.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\aad74e1a-770d-48b7-b5b2-2b0811155f74-articleimage_1144922.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/aad74e1a-770d-48b7-b5b2-2b0811155f74-articleimage_1144922.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\aad74e1a-770d-48b7-b5b2-2b0811155f74-articleimage_1144922.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\af2735e8-6201-45a7-a8e1-d1dad887c96a-articleimage_1130633.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Car.Web</SourceId>
@@ -3359,6 +4479,134 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\af2735e8-6201-45a7-a8e1-d1dad887c96a-articleimage_1130633.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\b11ff2a6-a9b4-4b52-a1af-74f8c07303dd-articleimage_1144930.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/b11ff2a6-a9b4-4b52-a1af-74f8c07303dd-articleimage_1144930.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\b11ff2a6-a9b4-4b52-a1af-74f8c07303dd-articleimage_1144930.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\b2303e3f-ff73-4c35-bf2d-4ff107d9ab74-articleimage_1147053.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/b2303e3f-ff73-4c35-bf2d-4ff107d9ab74-articleimage_1147053.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\b2303e3f-ff73-4c35-bf2d-4ff107d9ab74-articleimage_1147053.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\b3fdfd9e-e7d2-4ff5-a0ed-152c4da9fedd-articleimage_1146346.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/b3fdfd9e-e7d2-4ff5-a0ed-152c4da9fedd-articleimage_1146346.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\b3fdfd9e-e7d2-4ff5-a0ed-152c4da9fedd-articleimage_1146346.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\b477066d-b88c-4308-9636-2a9e922a4b0f-articleimage_1146337.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/b477066d-b88c-4308-9636-2a9e922a4b0f-articleimage_1146337.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\b477066d-b88c-4308-9636-2a9e922a4b0f-articleimage_1146337.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\b4f880f7-c6c6-4d1d-901e-bfc4883144b5-articleimage_1144934.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/b4f880f7-c6c6-4d1d-901e-bfc4883144b5-articleimage_1144934.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\b4f880f7-c6c6-4d1d-901e-bfc4883144b5-articleimage_1144934.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\b60e04fa-a2dc-4de5-8dc4-fd0649e33a52-articleimage_1144926.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/b60e04fa-a2dc-4de5-8dc4-fd0649e33a52-articleimage_1144926.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\b60e04fa-a2dc-4de5-8dc4-fd0649e33a52-articleimage_1144926.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\b9d1eedb-36f1-496f-93a1-9121ff4aad82-articleimage_1144924.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/b9d1eedb-36f1-496f-93a1-9121ff4aad82-articleimage_1144924.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\b9d1eedb-36f1-496f-93a1-9121ff4aad82-articleimage_1144924.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\babe1140-c4bb-4728-b605-df24dcf9d545-articleimage_1144934.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/babe1140-c4bb-4728-b605-df24dcf9d545-articleimage_1144934.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\babe1140-c4bb-4728-b605-df24dcf9d545-articleimage_1144934.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\bc18c893-35e7-4c54-b606-e77f88cabe14-articleimage_1130638.jpg))">
       <SourceType>Package</SourceType>
@@ -3376,6 +4624,70 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\bc18c893-35e7-4c54-b606-e77f88cabe14-articleimage_1130638.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\c3a7f0da-9523-4795-8d4a-c82ad8d57d18-articleimage_1144936.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/c3a7f0da-9523-4795-8d4a-c82ad8d57d18-articleimage_1144936.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\c3a7f0da-9523-4795-8d4a-c82ad8d57d18-articleimage_1144936.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\c59c5909-b53d-499b-9ea0-9f2a2bbaae01-articleimage_1143213.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/c59c5909-b53d-499b-9ea0-9f2a2bbaae01-articleimage_1143213.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\c59c5909-b53d-499b-9ea0-9f2a2bbaae01-articleimage_1143213.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\c714e85b-0a17-4767-99ac-3452cbd89093-articleimage_1144941.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/c714e85b-0a17-4767-99ac-3452cbd89093-articleimage_1144941.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\c714e85b-0a17-4767-99ac-3452cbd89093-articleimage_1144941.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\c85b0153-c7db-417a-ace7-5cf475f33882-articleimage_1144943.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/c85b0153-c7db-417a-ace7-5cf475f33882-articleimage_1144943.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\c85b0153-c7db-417a-ace7-5cf475f33882-articleimage_1144943.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\c97aa8a7-b404-422d-a349-0aa6563e034b-articleimage_1086902Z4.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Car.Web</SourceId>
@@ -3391,6 +4703,118 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\c97aa8a7-b404-422d-a349-0aa6563e034b-articleimage_1086902Z4.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\db4e979e-7bbb-478d-b37e-ed328cc2a924-articleimage_1144936.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/db4e979e-7bbb-478d-b37e-ed328cc2a924-articleimage_1144936.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\db4e979e-7bbb-478d-b37e-ed328cc2a924-articleimage_1144936.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\df1004cd-ad36-41d6-8222-5f4e6daeab41-articleimage_1144928.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/df1004cd-ad36-41d6-8222-5f4e6daeab41-articleimage_1144928.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\df1004cd-ad36-41d6-8222-5f4e6daeab41-articleimage_1144928.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\df48bc6f-7754-4400-bdb1-ddc810fddef2-articleimage_1144930.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/df48bc6f-7754-4400-bdb1-ddc810fddef2-articleimage_1144930.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\df48bc6f-7754-4400-bdb1-ddc810fddef2-articleimage_1144930.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\df7f3656-9ee9-46be-bc3e-062fb6b49c6f-articleimage_1144920.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/df7f3656-9ee9-46be-bc3e-062fb6b49c6f-articleimage_1144920.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\df7f3656-9ee9-46be-bc3e-062fb6b49c6f-articleimage_1144920.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\e35c5673-df59-46e7-a977-1f060c53e545-articleimage_1144932.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/e35c5673-df59-46e7-a977-1f060c53e545-articleimage_1144932.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\e35c5673-df59-46e7-a977-1f060c53e545-articleimage_1144932.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\e81c5cff-6134-403d-9f2b-75a127221c2f-articleimage_1144936.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/e81c5cff-6134-403d-9f2b-75a127221c2f-articleimage_1144936.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\e81c5cff-6134-403d-9f2b-75a127221c2f-articleimage_1144936.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\e93825da-ae6c-4564-8047-5f103ff20808-articleimage_1144924.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/e93825da-ae6c-4564-8047-5f103ff20808-articleimage_1144924.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\e93825da-ae6c-4564-8047-5f103ff20808-articleimage_1144924.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\ea38c253-a53c-413c-85c7-91339c317da6-articleimage_1130636.jpg))">
       <SourceType>Package</SourceType>
@@ -3408,6 +4832,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\ea38c253-a53c-413c-85c7-91339c317da6-articleimage_1130636.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\ecff8892-4bc9-48af-9652-2c5d698b956f-articleimage_1146339.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/ecff8892-4bc9-48af-9652-2c5d698b956f-articleimage_1146339.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\ecff8892-4bc9-48af-9652-2c5d698b956f-articleimage_1146339.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\ede9ffd0-2b50-4da1-a248-a9d3de25036d-articleimage_1130635.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Car.Web</SourceId>
@@ -3423,6 +4863,38 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\ede9ffd0-2b50-4da1-a248-a9d3de25036d-articleimage_1130635.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\ee44d979-5b72-4c45-be8a-f95447be0ae2-articleimage_1144920.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/ee44d979-5b72-4c45-be8a-f95447be0ae2-articleimage_1144920.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\ee44d979-5b72-4c45-be8a-f95447be0ae2-articleimage_1144920.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\fb7cfa48-9101-47cb-aaac-1a1ab91104ee-articleimage_1147989.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Car.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Car.Web</BasePath>
+      <RelativePath>Files/CarModelPost/Images/fb7cfa48-9101-47cb-aaac-1a1ab91104ee-articleimage_1147989.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\fb7cfa48-9101-47cb-aaac-1a1ab91104ee-articleimage_1147989.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\CarModelPost\Images\R (1).png))">
       <SourceType>Package</SourceType>

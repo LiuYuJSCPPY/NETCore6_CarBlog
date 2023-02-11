@@ -151,9 +151,9 @@ namespace Car.Web.Areas.Dashbord.Controllers
 
         }
 
-        [HttpPost]
-        [Route("{CarModelId:int}/CarModelClass/Delete")]
-        public async Task<IActionResult> Delete(int CarModelId, int CarModelClassId, CarModelClass carModelClass)
+        [HttpGet]
+        
+        public async Task<IActionResult> Delete(int CarModelClassId)
         {
             bool result = false;
 
@@ -161,11 +161,12 @@ namespace Car.Web.Areas.Dashbord.Controllers
 
             if (result)
             {
-                return RedirectToAction("Index", "CarModelClass", new { CarModelId = CarModelId });
+                return Json(new { Success = true });
             }
             else
             {
-                return BadRequest();
+                return Json(new { Success = false });
+
             }
 
         }

@@ -49,8 +49,9 @@
                     <td>@CarModelClass.Burn / @CarModelClass.Brand</td>
                     <td>
                         <a asp-action="Edit" asp-route-CarModelId="@CarModelClass.CarModelId" asp-route-CarModelClassId="@CarModelClass.Id">更新</a>
-              
-                        <a asp-action="Detele" asp-route-CarModelId="@CarModelClass.CarModelId" asp-route-CarModelClassId="@CarModelClass.Id">刪除</a>
+
+                        <button class="data-id btn btn-primary" onclick="DeleteModelclass('@Url.Action("Delete","CarModelClass",new{CarModelClassId= CarModelClass.Id})')">刪除</button>
+                       
                     </td>
          
                 </tr>
@@ -64,11 +65,16 @@
 </table>
 
 <script>
-    
-    $(".data-id").click(function(){
+    DeleteModelclass = (url) => {
         $.ajax({
-            url:$(this).attr("data-herf"),
-            type:"get",
-        }).done()
-    })
+            type: "get",
+            url: url,
+            success: function (deleteres) {
+                if (deleteres.success) {
+                    location.reload();
+                }
+            }
+        })
+    }
+
 </script>
