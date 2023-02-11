@@ -37,6 +37,7 @@
  * 註冊頁面 
  * 車品牌管理頁面(CRUD)
  * 車型管理頁面(CRUD)
+ * 該車型售價資訊(CRUD)
  
  ## 展示專案圖片 : 
  **前端頁面:**
@@ -52,7 +53,7 @@
 ![image](https://github.com/LiuYuJSCPPY/NETCore6_CarBlog/blob/main/Image/%E5%B7%B2%E6%90%9C%E7%B4%A2%E8%BB%8A%E5%9E%8B.PNG)
 3. 品牌頁面 : 
    1.  該品牌所有車型。
-![image(https://github.com/LiuYuJSCPPY/NETCore6_CarBlog/blob/main/Image/%E6%9C%AA%E7%99%BB%E5%85%A5%E8%A9%B2%E5%93%81%E7%89%8C%E6%89%80%E6%9C%89%E8%BB%8A%E5%9E%8B.PNG)
+![image](https://github.com/LiuYuJSCPPY/NETCore6_CarBlog/blob/main/Image/%E6%9C%AA%E7%99%BB%E5%85%A5%E8%A9%B2%E5%93%81%E7%89%8C%E6%89%80%E6%9C%89%E8%BB%8A%E5%9E%8B.PNG)
 
 4. 該車型頁面 : 
    1.  該車型所有資料。
@@ -61,16 +62,21 @@
 
   
 **後端端頁面:**
-1. **管理藝人頁面:** 顯示所有藝人的頁面(新增、更新、刪除)。
-![image](https://github.com/LiuYuJSCPPY/NetCore6_Music/blob/main/Iamge/%E5%BE%8C%E8%87%BA%E7%AE%A1%E7%90%86%E8%97%9D%E4%BA%BACRUD.PNG)
-2. **管理藝人的專輯頁面:** 只會出現該藝人的所有專輯(新增、更新、刪除)。
-![image](https://github.com/LiuYuJSCPPY/NetCore6_Music/blob/main/Iamge/%E5%BE%8C%E5%8F%B0%E5%B0%88%E8%BC%AFCRUD.PNG)
-3. **專輯歌曲頁面:** 專輯裡面所有歌曲(新增、更新、刪除)。
-![image](https://github.com/LiuYuJSCPPY/NetCore6_Music/blob/main/Iamge/%E5%BE%8C%E5%8F%B0%E5%B0%88%E8%BC%AF%E9%9F%B3%E6%A8%82CRUD.PNG)
-
-
+1. **登入頁面:**  
+![image](https://github.com/LiuYuJSCPPY/NETCore6_CarBlog/blob/main/Image/%E7%99%BB%E5%85%A5%E7%95%AB%E9%9D%A2.PNG)
+2. **註冊頁面:** 註冊新會員
+![image](https://github.com/LiuYuJSCPPY/NETCore6_CarBlog/blob/main/Image/%E8%A8%BB%E5%86%8A%E6%9C%83%E5%93%A1.PNG)
+3. **車品牌管理頁面(CRUD):** 車品牌管理頁面(新增、更新、刪除)。
+![image](https://github.com/LiuYuJSCPPY/NETCore6_CarBlog/blob/main/Image/%E8%BB%8A%E5%AD%90%E7%9A%84%E5%93%81%E7%89%8CCRUD.PNG)
+4. **車型管理頁面(CRUD):** 車型管理頁面(新增、更新、刪除)。
+![image](https://github.com/LiuYuJSCPPY/NETCore6_CarBlog/blob/main/Image/%E6%89%80%E6%9C%89%E7%9A%84%E8%BB%8ACRUD.PNG)
+5. **該車型售價資訊(CRUD):** 該車型售價資訊(新增、更新、刪除)。
+![image](https://github.com/LiuYuJSCPPY/NETCore6_CarBlog/blob/main/Image/%E8%BB%8A%E5%AD%90%E8%BB%8A%E5%9E%8BCRUD.PNG)
+![image](https://github.com/LiuYuJSCPPY/NETCore6_CarBlog/blob/main/Image/%E8%A9%B2%E8%BB%8A%E5%AD%90%E8%BB%8A%E5%9E%8B%E6%96%B0%E5%A2%9E.PNG)
+![image](https://github.com/LiuYuJSCPPY/NETCore6_CarBlog/blob/main/Image/%E8%A9%B2%E8%BB%8A%E5%9E%8B%E6%9B%B4%E6%96%B0.PNG)
 ## 資料庫關聯圖
 ![image](https://github.com/LiuYuJSCPPY/NetCore6_Music/blob/main/Iamge/Untitled%20(1).png)
+![image](https://github.com/LiuYuJSCPPY/NETCore6_CarBlog/blob/main/Image/CarBlog.png)
 
 ## 前端使用範例影片
 
